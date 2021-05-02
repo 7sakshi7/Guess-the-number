@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('/bg6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#img-container {
+    width: 90vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container {
+    border: 2px solid black;
+    height: 20vh;
+    width: 15vw;
+    margin-top: 20px;
+}
+
+.container img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+    width: 15vw;
+}
+
+.add-bgcolor {
+    border: 2px solid #e9efef;
+}
+
+#box {
+    height: 470px;
+    width: 500px;
+    background: transparent;
+    border: 3px solid rgb(12, 12, 12);
+    position: relative;
+    left: 29rem;
+    border-radius: 23px;
+    box-shadow: -18px 18px 25px -6px rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+input[type="number"] {
+    position: relative;
+    left: 155px;
+    color: white;
+    background: black;
+    text-align: center;
+    font-size: 18px;
+    height: 28px;
+}
+
+#show-msg {
+    color: #e9efef;
+    height: 30px;
+    position: relative;
+    top: 1rem;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    /* border: 2px solid; */
+
+}
+
+.btns {
+    height: 90px;
+    width: 100%;
+    position: relative;
+    top: 3rem;
+}
+
+.btn {
+    border-radius: 23px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+#check {
+    margin: 10px 199px;
+    visibility: hidden;
+}
+
+#Again {
+    position: relative;
+    top: -58px;
+    left: 210px;
+}
+
+#show-score {
+    height: 76px;
+    position: relative;
+    top: 10px;
+}
+
+#score {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+    top: 11px;
+}
+
+#highscore {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    float: right;
+    position: relative;
+    top: -20px;
+    right: 27px;
+}
